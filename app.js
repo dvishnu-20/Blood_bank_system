@@ -95,17 +95,6 @@ class BloodLinkApp {
         const email = formData.get('email');
         const password = formData.get('password');
 
-        if (role === 'admin') {
-            if (email === "admin@bloodlink.com" && password === "admin123") {
-                this.currentUser = { name: "Admin User", role: 'admin' };
-                this.hideAuth();
-                this.navigateToDashboard('admin');
-            } else {
-                alert('Invalid Admin credentials.');
-            }
-            return;
-        }
-
         try {
             if (type === 'login') {
                 await this.auth.signInWithEmailAndPassword(email, password);
