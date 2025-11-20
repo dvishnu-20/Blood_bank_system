@@ -2,7 +2,7 @@
 
 **Blood Link** is a comprehensive, real-time, web-based platform designed to bridge the gap between **blood donors**, **recipients**, and **blood bank administrators**. It’s a **single-page application (SPA)** built with **Vanilla JavaScript** and backed by **Firebase** for authentication and a live database.
 
----
+----
 
 ## 🌍 Overview
 
